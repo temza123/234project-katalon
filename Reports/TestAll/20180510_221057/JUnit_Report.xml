@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestAll" time="28" tests="2" failures="0" errors="0">
+   <testsuite name="TestAll" tests="2" failures="0" errors="0" time="28" timestamp="2018-05-10 22:10:58" hostname="frong - DESKTOP-4FO52IM" id="Test Suites/TestAll">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_221057"/>
+         <property name="logFiles" value="C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_221057\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="frong - DESKTOP-4FO52IM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.65.9.59"/>
+         <property name="sessionId" value="62199f0a51dd6e4844cd9d294caaa0c4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test user empty" classname="Test Cases/Test user empty" status="PASSED">
+         <system-out><![CDATA[2018-05-10 22:10:59 - [TEST_CASE][PASSED] - Test Cases/Test user empty: Test Cases/Test user empty
+
+2018-05-10 22:10:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 22:11:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 22:11:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.208.44.70:8087/' successfully
+
+2018-05-10 22:11:17 - [MESSAGE][PASSED] - Navigate to 'http://34.208.44.70:8087/' successfully
+
+2018-05-10 22:11:17 - [TEST_STEP][PASSED] - setText: Text 'afh' is set on object 'Object Repository/Test user empty/Page_ProjectBackend/input_password'
+
+2018-05-10 22:11:17 - [MESSAGE][PASSED] - Text 'afh' is set on object 'Object Repository/Test user empty/Page_ProjectBackend/input_password'
+
+2018-05-10 22:11:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test user empty/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 22:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test user empty/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 22:11:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test user empty/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 22:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test user empty/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 22:11:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 22:11:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test user empty" classname="Test Cases/Test user empty" status="PASSED">
+         <system-out><![CDATA[2018-05-10 22:11:18 - [TEST_CASE][PASSED] - Test Cases/Test user empty: Test Cases/Test user empty
+
+2018-05-10 22:11:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 22:11:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 22:11:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.208.44.70:8087/' successfully
+
+2018-05-10 22:11:25 - [MESSAGE][PASSED] - Navigate to 'http://34.208.44.70:8087/' successfully
+
+2018-05-10 22:11:25 - [TEST_STEP][PASSED] - setText: Text 'fgh' is set on object 'Object Repository/Test user empty/Page_ProjectBackend/input_password'
+
+2018-05-10 22:11:26 - [MESSAGE][PASSED] - Text 'fgh' is set on object 'Object Repository/Test user empty/Page_ProjectBackend/input_password'
+
+2018-05-10 22:11:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test user empty/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 22:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Test user empty/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 22:11:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test user empty/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 22:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Test user empty/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 22:11:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 22:11:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 22:10:58 - [TEST_SUITE][PASSED] - TestAll: Test Cases/Test user empty]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

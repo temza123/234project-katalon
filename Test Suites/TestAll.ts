@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestAll</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-10T22:22:17</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3e7df5bc-fd1c-48e3-a3de-b36efb60d3e1</testSuiteGuid>
+   <testCaseLink>
+      <guid>c0adf0a1-be65-4339-8fef-c8034e8ed6aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test user empty</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7969069b-a731-4a5f-85c1-b66f623ba645</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Password list</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7969069b-a731-4a5f-85c1-b66f623ba645</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>67b8a660-4c09-4210-a28f-adaf505053bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7969069b-a731-4a5f-85c1-b66f623ba645</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e2ebe6d6-b775-4a07-9be7-75d166b697cf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4b831fa-f74c-4900-9e72-e1419f9a375c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test password empty</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5e2f82ad-83de-41e7-9308-7bc04157ea0f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User list</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5e2f82ad-83de-41e7-9308-7bc04157ea0f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>1b1960ff-2f13-4879-96eb-9bddf6711ed0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5e2f82ad-83de-41e7-9308-7bc04157ea0f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>aac48166-b13d-48ac-a68e-56bf2a4ffa6e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

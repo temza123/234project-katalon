@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestAll,,,2018-05-10 22:10:53,2018-05-10 22:10:54,1.133s,FAILED
+,,,,,,
+Test Cases/Test user empty,,,2018-05-10 22:10:53,2018-05-10 22:10:54,0.696s,FAILED
+openBrowser,,,2018-05-10 22:10:54,2018-05-10 22:10:54,0.389s,FAILED
+,,,,,,
+Test Cases/Test user empty,,,2018-05-10 22:10:54,2018-05-10 22:10:54,0.019s,FAILED
+openBrowser,,,2018-05-10 22:10:54,2018-05-10 22:10:54,0.004s,FAILED

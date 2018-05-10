@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestAll" time="1" tests="0" failures="2" errors="0">
+   <testsuite name="TestAll" tests="0" failures="2" errors="0" time="1" timestamp="2018-05-10 22:10:53" hostname="frong - DESKTOP-4FO52IM" id="Test Suites/TestAll">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_221051"/>
+         <property name="logFiles" value="C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_221051\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="frong - DESKTOP-4FO52IM"/>
+         <property name="hostAddress" value="10.65.9.59"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Test user empty" classname="Test Cases/Test user empty" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-10 22:10:53 - [TEST_CASE][FAILED] - Test Cases/Test user empty: Test Cases/Test user empty FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-10 22:10:54 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-10 22:10:54 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-10 22:10:53 - [TEST_CASE][FAILED] - Test Cases/Test user empty: Test Cases/Test user empty FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test user empty" classname="Test Cases/Test user empty" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-10 22:10:54 - [TEST_CASE][FAILED] - Test Cases/Test user empty: Test Cases/Test user empty FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-10 22:10:54 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-10 22:10:54 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-10 22:10:54 - [TEST_CASE][FAILED] - Test Cases/Test user empty: Test Cases/Test user empty FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 22:10:53 - [TEST_SUITE][FAILED] - TestAll: Test Cases/Test user empty FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-05-10 22:10:53 - [TEST_SUITE][FAILED] - TestAll: Test Cases/Test user empty FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4FO52IM', ip: '10.65.9.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>
