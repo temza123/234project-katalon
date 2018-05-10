@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.208.44.70:8087/')
 
-WebUI.setText(findTestObject('Test user change amount-edited/Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('Test user change amount-edited/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('Test user change amount-edited/Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('Test user change amount-edited/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('Test user change amount-edited/Page_ProjectBackend/button_Login'))
 
@@ -39,6 +39,8 @@ WebUI.setText(findTestObject('Test user change amount-edited/Page_ProjectBackend
 WebUI.click(findTestObject('Test user change amount-edited/Page_ProjectBackend/p_Total price  60000 THB'))
 
 WebUI.click(findTestObject('Test user change amount-edited/Page_ProjectBackend/button_confirm'))
+
+WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Test user change amount-edited/Page_ProjectBackend/div_Well done You successfully'))
 

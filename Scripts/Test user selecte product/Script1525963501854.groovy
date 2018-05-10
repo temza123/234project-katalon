@@ -24,17 +24,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.208.44.70:8087/')
 
-WebUI.setText(findTestObject('Test user select product/Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('Test user select product/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('Test user select product/Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('Test user select product/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('Test user select product/Page_ProjectBackend/button_Login'))
 
 WebUI.click(findTestObject('Test user select product/Page_ProjectBackend/button_add to cart'))
 
-WebUI.click(findTestObject('Test user select product/Page_ProjectBackend/a_Carts            1'))
-
-WebUI.click(findTestObject('Test user select product/Page_ProjectBackend/th_1'))
+WebUI.verifyElementText(findTestObject('Test user select product/Page_ProjectBackend/button_add to cart - already added'), 
+    'already added')
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestAll" time="10" tests="0" failures="1" errors="0">
+   <testsuite name="TestAll" tests="0" failures="1" errors="0" time="10" timestamp="2018-05-10 23:14:40" hostname="frong - 10.80.187.28" id="Test Suites/TestAll">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_231439"/>
+         <property name="logFiles" value="C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_231439\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_231439\\1525968890123.png, C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_231439\\1525968890383.png"/>
+         <property name="hostName" value="frong - 10.80.187.28"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.187.28"/>
+         <property name="sessionId" value="e7c7751424f3992c2d84f0b43ce9ba4a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test user selecte product" classname="Test Cases/Test user selecte product" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' FAILED. (Root cause: Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-10 23:14:40 - [TEST_CASE][FAILED] - Test Cases/Test user selecte product: Test Cases/Test user selecte product FAILED because (of) Verify element text of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' FAILED. (Root cause: Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.)
+
+2018-05-10 23:14:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 23:14:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 23:14:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.208.44.70:8087/' successfully
+
+2018-05-10 23:14:48 - [MESSAGE][PASSED] - Navigate to 'http://34.208.44.70:8087/' successfully
+
+2018-05-10 23:14:48 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Test user select product/Page_ProjectBackend/input_username'
+
+2018-05-10 23:14:48 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Test user select product/Page_ProjectBackend/input_username'
+
+2018-05-10 23:14:48 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Test user select product/Page_ProjectBackend/input_password'
+
+2018-05-10 23:14:48 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Test user select product/Page_ProjectBackend/input_password'
+
+2018-05-10 23:14:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test user select product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 23:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Test user select product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 23:14:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-10 23:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-10 23:14:50 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' FAILED. (Root cause: Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.)
+
+2018-05-10 23:14:50 - [MESSAGE][FAILED] - Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.
+[[ATTACHMENT|C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_231439\\1525968890123.png]]
+
+2018-05-10 23:14:50 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' FAILED. (Root cause: Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\frong\\git\\234project-katalon\\Reports\\TestAll\\20180510_231439\\1525968890383.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 23:14:40 - [TEST_CASE][FAILED] - Test Cases/Test user selecte product: Test Cases/Test user selecte product FAILED because (of) Verify element text of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' FAILED. (Root cause: Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 23:14:40 - [TEST_SUITE][FAILED] - TestAll: Test Cases/Test user selecte product FAILED because (of) Verify element text of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' FAILED. (Root cause: Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-05-10 23:14:40 - [TEST_SUITE][FAILED] - TestAll: Test Cases/Test user selecte product FAILED because (of) Verify element text of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' FAILED. (Root cause: Actual text 'add to cart' and expected text 'add to carts' of test object 'Object Repository/Test user select product/Page_ProjectBackend/button_add to cart - already added' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>
