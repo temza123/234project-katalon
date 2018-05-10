@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test user change amount</name>
+   <name>Test user change amount-edited</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cb0c43c2-3dcd-432d-ae98-82392235af3f</testCaseGuid>
+   <testCaseGuid>cd9ce06a-c40e-4331-a6eb-4aa856312304</testCaseGuid>
 </TestCaseEntity>

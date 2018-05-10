@@ -3,7 +3,7 @@
    <description></description>
    <name>input_amount</name>
    <tag></tag>
-   <elementGuidId>cc1cdeb4-df9f-47d1-9292-4e0a4cf6d41d</elementGuidId>
+   <elementGuidId>6b26a88f-14cf-4bde-aeeb-811ef03f3754</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-dirty ng-invalid</value>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,8 +44,15 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ng-reflect-model</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/table[@class=&quot;table table-striped table-hover&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;col-4 center-block&quot;]/input[@class=&quot;form-control ng-untouched ng-dirty ng-invalid&quot;]</value>
+      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/table[@class=&quot;table table-striped table-hover&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;col-4 center-block&quot;]/input[@class=&quot;form-control ng-untouched ng-pristine ng-valid&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
